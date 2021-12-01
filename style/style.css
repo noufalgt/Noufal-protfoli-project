@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* bootstrap navbar start */
+
+#navbar {
+  box-shadow: 3px 3px 5px #c5c0c0;
+}
+
+.navbar .navbar-brand {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(18, 93, 190);
+}
+
+.navbar .navbar-brand .btn {
+  border: none;
+}
+
+#navbarSupportedContent a {
+  border-bottom: 2px solid transparent;
+  border-radius: 5px;
+}
+
+#navbarSupportedContent a:hover {
+  background-color: rgb(190, 217, 253);
+}
+
+/* bootstrap navbar end */
+
+/* hero page start */
+
+.left-banner {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-banner .left-title {
+  width: 541px;
+}
+
+.left-banner .left-title p {
+  text-align: justify;
+}
+
+.left-banner .left-title h1 {
+  font-size: 70px;
+}
+
+.left-title .btn-cv {
+  font-size: 14px;
+  background: #0d6efd;
+  text-decoration: none;
+  padding: 8px 7px;
+  border-radius: 5px;
+  color: white;
+}
+
+.left-title .btn-cv i img {
+  color: blanchedalmond;
+}
+
+/* hero page end */
+
+.left-banner .right-title {
+}
+
+.left-banner .right-title img {
+  border-radius: 100px;
+  border-bottom: 10px solid transparent;
+  width: 335px;
+}
+
+.skills-banner {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.skills-banner h6 {
+  display: flex;
+  justify-content: center;
+  padding-top: 79px;
+}
+
+.skills-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-left li h3 {
+  font-size: 17px;
+}
+
+.skills-left li {
+  margin-top: 12px;
+  width: 482px;
+}
+
+.skills-left li .bar {
+  background-color: rgb(179, 167, 179);
+  display: block;
+  height: 7px;
+  border: 1px solid rgb(194, 189, 189);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 8px whitesmoke;
+}
+
+.skills-left li .bar span {
+  height: 7px;
+  display: flex;
+  background-color: rgb(40, 118, 219);
+}
+
+.skills-left li .filmmking {
+}
+
+.skills-right li h3 {
+  font-size: 17px;
+}
+
+.skills-right li {
+  margin-top: 12px;
+  width: 482px;
+}
+
+.skills-right li .bar {
+  background-color: rgb(179, 167, 179);
+  display: block;
+  height: 7px;
+  border: 1px solid rgb(194, 189, 189);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 8px whitesmoke;
+}
+
+.skills-right li .bar span {
+  height: 7px;
+  display: flex;
+  background-color: rgb(40, 118, 219);
+}
+
+.education-banner {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.education-banner h6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.education-box-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 71px;
+  padding-left: 72px;
+}
+
+.education-box {
+  width: 215px;
+  border-left: 2px solid rgb(134, 134, 134);
+  margin-left: 23px;
+  padding-left: 10px;
+}
+
+.education-box span {
+  font-size: 17px;
+  background: #2b7df8;
+  padding: 2px 7px;
+  border-radius: 9px;
+  color: whitesmoke;
+}
+
+.education-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.education-box p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.experiance-banner {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.experiance-banner {
+  width: 100%;
+  min-height: 100vh;
+  background-color: wheat;
+}
+
+.works-banner {
+  width: 100%;
+  min-height: 100vh;
+  background: turquoise;
+}
+
+.contact-banner {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contat-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 110px;
+  padding-right: 1px;
+}
+
+.contact-left {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.contact-left {
+  margin-left: 50px;
+  margin-top: 56px;
+}
+
+.contact-left i {
+  font-size: 35px;
+  color: #2b7df8;
+}
+
+.contct-right {
+  margin-left: 71px;
+}
+
+.contct-right p {
+  text-align: justify;
+}
+
+.contct-right .sendnow-btn {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 3px;
+  padding: 6px 14px;
+  font-style: normal;
+  border: none;
+  font-size: 14px;
+}
+
+.contct-right .input-box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px;
+  margin: 2px;
+  width: 439px;
+}
