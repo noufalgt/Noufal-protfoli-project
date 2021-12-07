@@ -13,13 +13,15 @@
 }
 
 .navbar .navbar-brand {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: rgb(18, 93, 190);
 }
 
-.navbar .navbar-brand .btn {
-  border: none;
+.collapse .btn span {
+}
+
+.collapse .btn span:hover {
 }
 
 #navbarSupportedContent a {
@@ -29,6 +31,9 @@
 
 #navbarSupportedContent a:hover {
   background-color: rgb(190, 217, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* bootstrap navbar end */
@@ -36,7 +41,6 @@
 /* hero page start */
 
 .left-banner {
-  background: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -63,6 +67,18 @@
   padding: 8px 7px;
   border-radius: 5px;
   color: white;
+}
+
+.left-title .btn-cv2 {
+  font-size: 14px;
+  background: #0d6efd;
+  text-decoration: none;
+  padding: 8px 7px;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  position: relative;
+  right: 5px;
 }
 
 .left-title .btn-cv i img {
@@ -95,8 +111,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -106,26 +120,52 @@
   align-items: center;
 }
 
-.skills-left li h3 {
+.skills-left1 li h3 {
   font-size: 17px;
 }
-
-.skills-left li {
-  margin-top: 12px;
-  width: 482px;
+.skills-left2 li h3 {
+  font-size: 17px;
+}
+.skills-left1 {
+  margin-top: 39px;
+}
+.skills-left2 {
+  margin-top: -269px;
 }
 
-.skills-left .multimedia-name{
+.skills-left1 li {
+  margin-top: 12px;
+  width: 344px;
+}
+.skills-left2 li {
+  margin-top: 12px;
+  width: 344px;
+}
+
+.multimedia-name1 h5 {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid rgb(40, 118, 219);
-  
- 
-  
 }
 
-.skills-left li .bar {
+.multimedia-name2 h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(40, 118, 219);
+  line-height: 1px;
+}
+.skills-left1 li .bar {
+  background-color: rgb(179, 167, 179);
+  display: block;
+  height: 7px;
+  border: 1px solid rgb(194, 189, 189);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 8px whitesmoke;
+}
+.skills-left2 li .bar {
   background-color: rgb(179, 167, 179);
   display: block;
   height: 7px;
@@ -135,13 +175,15 @@
   box-shadow: 0 0 8px whitesmoke;
 }
 
-.skills-left li .bar span {
+.skills-left1 li .bar span {
   height: 7px;
   display: flex;
   background-color: rgb(40, 118, 219);
 }
-
-.skills-left li .filmmking {
+.skills-left2 li .bar span {
+  height: 7px;
+  display: flex;
+  background-color: rgb(40, 118, 219);
 }
 
 .skills-right li h3 {
@@ -150,7 +192,11 @@
 
 .skills-right li {
   margin-top: 12px;
-  width: 482px;
+  width: 344px;
+}
+
+.skills-right {
+  margin-top: 30px;
 }
 
 .skills-right li .bar {
@@ -169,12 +215,11 @@
   background-color: rgb(40, 118, 219);
 }
 
-.skills-right .web-name{
+.skills-right .web-name {
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid rgb(40, 118, 219);
-
 }
 
 .education-banner {
@@ -206,33 +251,32 @@
 }
 
 .education-box span {
-  font-size: 17px;
+  font-size: 16px;
   background: #2b7df8;
-  padding: 2px 7px;
-  border-radius: 9px;
+  padding: 2px 4px;
+  border-radius: 4px;
   color: whitesmoke;
 }
 
 .education-box h3 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17px;
 }
 
 .education-box p {
-  font-size: 15px;
-  text-align: justify;
+  font-size: 13px;
+  text-align: right;
 }
 
 .experiance-banner {
   width: 100%;
   min-height: 100vh;
-  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.experiance-banner {
-  width: 100%;
-  min-height: 100vh;
-  background-color: wheat;
+.experiance-banner h6 {
+  margin-bottom: 430px;
 }
 
 .works-banner {
@@ -267,7 +311,7 @@
 }
 
 .contact-left i {
-  font-size: 35px;
+  font-size: 32px;
   color: #2b7df8;
 }
 

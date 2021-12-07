@@ -23,7 +23,10 @@
     margin-top: 20px;
   }
 
-  .skills-left li {
+  .skills-left1 li {
+    margin-top: 20px;
+  }
+  .skills-left2 li {
     margin-top: 20px;
   }
 
@@ -63,6 +66,13 @@
 
 /* skills page start */
 
+.skills-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
   .skills-banner h6 {
     padding-top: 78px;
   }
@@ -72,7 +82,11 @@
     width: 386px;
   }
 
-  .skills-left li {
+  .skills-left1 li {
+    margin-top: 20px;
+    width: 386px;
+  }
+  .skills-left2 li {
     margin-top: 20px;
     width: 386px;
   }
@@ -139,7 +153,11 @@
     width: 229px;
   }
 
-  .skills-left li {
+  .skills-left1 li {
+    margin-top: 20px;
+    width: 229px;
+  }
+  .skills-left2 li {
     margin-top: 20px;
     width: 229px;
   }
@@ -220,12 +238,19 @@
     width: 229px;
   }
 
-  .skills-left li {
+  .skills-left1 li {
+    margin-top: 20px;
+    width: 229px;
+  }
+  
+  .skills-left2 li {
     margin-top: 20px;
     width: 229px;
   }
 
-
+  .skills-left2{
+    margin-top: 40px;
+  }
 /* contct banner start */
 
   .contat-main {
