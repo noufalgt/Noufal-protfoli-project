@@ -69,6 +69,11 @@
   color: white;
 }
 
+.left-title .btn-cv:hover{
+  background: #5878a8;
+  
+}
+
 .left-title .btn-cv2 {
   font-size: 14px;
   background: #0d6efd;
@@ -81,6 +86,10 @@
   right: 5px;
 }
 
+.left-title .btn-cv2:hover{
+
+  background: #5878a8;
+}
 .left-title .btn-cv i img {
   color: blanchedalmond;
 }
@@ -130,7 +139,7 @@
   margin-top: 39px;
 }
 .skills-left2 {
-  margin-top: -269px;
+  margin-top: -245px;
 }
 
 .skills-left1 li {
@@ -154,7 +163,7 @@
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid rgb(40, 118, 219);
-  line-height: 1px;
+
 }
 .skills-left1 li .bar {
   background-color: rgb(179, 167, 179);
@@ -244,10 +253,11 @@
 }
 
 .education-box {
-  width: 215px;
+  width: 267px;
   border-left: 2px solid rgb(134, 134, 134);
   margin-left: 23px;
   padding-left: 10px;
+  line-height: 36px;
 }
 
 .education-box span {
@@ -261,6 +271,12 @@
 .education-box h3 {
   font-size: 17px;
 }
+
+.education-box i {
+  font-size: 22px;
+  color: #568ee9;
+}
+
 
 .education-box p {
   font-size: 13px;

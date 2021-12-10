@@ -19,6 +19,10 @@
     padding-top: 94px;
   }
 
+  .skills-left2 {
+    margin-top: -291px;
+  }
+
   .skills-right li {
     margin-top: 20px;
   }
@@ -29,6 +33,7 @@
   .skills-left2 li {
     margin-top: 20px;
   }
+
 
   /* contct banner start */
 
@@ -90,6 +95,10 @@
     margin-top: 20px;
     width: 386px;
   }
+
+  .skills-left2 {
+    margin-top: 47px;
+}
 
 
 
@@ -162,6 +171,11 @@
     width: 229px;
   }
 
+  .skills-left2 {
+    margin-top: 47px;
+}
+
+
 /* contct banner start */
 
   .contct-right h1{
@@ -209,7 +223,7 @@
 
   .left-banner .right-title {
     width: 309px;
-    padding-right: 283px;
+    margin-left: 13px;
     padding-top: 39px;
     
   }
